@@ -1,1 +1,1 @@
-web: gunicorn instagramhasthaghider:app
+web: gunicorn instagramhashtaghider:app
