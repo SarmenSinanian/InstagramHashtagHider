@@ -43,7 +43,7 @@ myHashtags = []
 def do_input():
     data = request.form.get('data')
     x = data.split()
-    r = max(len(x)*5, 100)
+    r = max(len(x)*7, 100)
     pattern = re.compile('[\W_]+')
     for i in x:
         j = pattern.sub('', i)
